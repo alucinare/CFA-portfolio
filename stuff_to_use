@@ -1,0 +1,13 @@
+<!-- this will display the code from whatever page I'm currently on hence it
+prints hello about on the abouts page and hello contact on the contact page however I want to be able to put all the menu stuff like photos and links, etc in a partials controller  -->
+
+
+For the repetition of the menu bar
+# the comments function doesn't stop this from working
+<!-- <% 9.times do %> -->
+<!-- <% end %> -->
+
+
+For linking
+<!-- <p class="links"><%= @contact %></p>
+<p class="links"><%= @about %></p> -->

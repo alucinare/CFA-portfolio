@@ -1,0 +1,209 @@
+<!-- This is the lay out for all the pages except for the splash page  -->
+<div class="grid main-container">
+  <div class="row children">
+    <div class="col-12">
+      <!-- HEADER AND NAV BAR  -->
+      <div class="back-menu">
+      <div class="flexing-menu">
+        <div class="circles colour-one">
+          <div class="mercury">
+            <%= image_tag("mercury.png", size: "80x80", :alt => "mercury") %>
+          </div>
+        </div>
+        <div class="circles">
+          <div class="venus">
+            <%= image_tag("venus.png", size: "80x80", :alt => "venus") %>
+          </div>
+        </div>
+        <div class="circles">
+          <div class="earth">
+            <%= image_tag("earth.png", size: "80x80", :alt => "earth") %>
+          </div>
+        </div>
+        <div class="circles">
+          <div class="mars">
+            <%= image_tag("mars_clear.png", size: "80x80", :alt => "mars") %>
+          </div>
+        </div>
+        <div class="circles">
+          <div class="jupiter">
+            <%= image_tag("jupiter_clear.png", size: "80x80", :alt => "jupiter") %>
+          </div>
+        </div>
+        <div class="circles">
+          <div class="saturn">
+            <%= image_tag("saturn.png", size: "80x80", :alt => "saturn") %>
+          </div>
+        </div>
+        <div class="circles">
+          <div class="uranus">
+            <%= image_tag("uranus_clear.png", size: "80x80", :alt => "uranus") %>
+          </div>
+        </div>
+        <div class="circles">
+          <div class="neptune">
+            <%= image_tag("neptune.png", size: "80x80", :alt => "neptune") %>
+          </div>
+        </div>
+        <div class="circles">
+          <div class="pluto">
+            <%= image_tag("pluto_clear.png", size: "80x80", :alt => "pluto") %>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="row children">
+    <div class="col-12">
+      <!-- TEXT BOX -->
+        <div class="text-box">
+          <p>Some stuff that I have written in the box to make it appear that I have
+            some stuff in the box, let this be a lesson to you my friend</p>
+        </div>
+        <div class="text-box">
+          <p>Here is some more stuff about a place I once went to that thought they
+            coming in here to get to antoher place but we were wrong</p>
+          <%= link_to 'Contact url', pages_contact_url %>
+        </div>
+        <div class="text-box"
+          <p>Here is some more stuff about a place I once went to that thought they
+          coming in here to get to antoher place but we were wrong</p>
+        </div>
+    </div>
+    <!-- <div class="col-9">9 Columns</div> -->
+  </div>
+  <div class="row children">
+    <div class="col-12">
+      <!-- FOOTER BOX -->
+      <footer>
+        <div class="bottom footer">
+          <h1>Whateverl</h1>
+        </div>
+      </footer>
+    </div>
+    <!-- <div class="col-4">4 Columns</div>
+    <div class="col-4">4 Columns</div> -->
+  </div>
+  <!-- <div class="row">
+    <div class="col-3">3 Columns</div>
+    <div class="col-6">6 Columns</div>
+    <div class="col-3">3 Columns</div>
+  </div> -->
+</div>
+
+
+<!-- <div class="main-container">
+  <!-- different flex boxes  -->
+
+ <!-- </div> -->
+<div class="grid">
+  <div class="row">
+    <div class="col-12">
+   <div class="grid">
+
+
+ <div class="row children">
+   <div class="col-12 children">
+     <div class="children">
+       <p>Some stuff that I have written in the box to make it appear that I have
+           some stuff in the box, let this be a lesson to you my friend</p>
+       <div class="text-box">
+         <p>Here is some more stuff about a place I once went to that thought they
+           coming in here to get to antoher place but we were wrong</p>
+         <%= link_to 'Contact url', pages_contact_url %>
+       </div>
+       <div class="text-box"
+         <p>Here is some more stuff about a place I once went to that thought they
+         coming in here to get to antoher place but we were wrong</p>
+       </div>
+     </div>
+   </div>
+ </div>
+ <div class="row children">
+   <div class="col-12 children">
+     <div class="children">
+       <div class="bottom footer">
+         <h1>Whateverl</h1>
+       </div>
+     </div>
+   </div>
+ </div>
+</div>
+
+
+<div class="col-4 tex-col">
+  <div class="boxes">
+    <p> this is some text to give us an indicator of what is happening<p>
+  </div>
+</div>
+<div class="col-4 tex-col">
+  <div class="boxes">
+    <p> this is some text to give us an indicator of what is happening<p>
+  </div>
+</div>
+
+
+ROWS THAT ANNA GAVE ME
+
+// .grid {
+//     width: 100%;
+//     // margin: 0 auto;
+//     // max-width: 1200px;
+// }
+//
+// .row {
+//     // width: 100%;
+//     margin-bottom: 20px;
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: space-around;
+// }
+//
+// .col-1 {
+//     width: 8.33%;
+// }
+//
+// .col-2 {
+//     width: 16.66%;
+// }
+//
+// .col-3 {
+//     width: 25%;
+// }
+//
+// .col-4 {
+//     width: 33.33%;
+// }
+//
+// .col-5 {
+//     width: 41.66%;
+// }
+//
+// .col-6 {
+//     width: 50%;
+// }
+//
+// .col-7 {
+//     width: 58.33%;
+// }
+//
+// .col-8 {
+//     width: 66.66%;
+// }
+//
+// .col-9 {
+//     width: 75%;
+// }
+//
+// .col-10 {
+//     width: 83.33%;
+// }
+//
+// .col-11 {
+//     width: 91.66%;
+// }
+//
+// .col-12 {
+//     width: 100%;
+// }

@@ -6,6 +6,8 @@ class PagesController < ApplicationController
   end
 
   def about
+    @about = "hello about"
+
   end
 
   def skillz
@@ -15,5 +17,7 @@ class PagesController < ApplicationController
   end
 
   def contact
+
+    @contact = "hello contact"
   end
 end
