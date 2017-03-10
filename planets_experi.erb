@@ -1,0 +1,241 @@
+<!-- This is the lay out for all the pages except for the splash page  -->
+<!--  NAV BAR -->
+<div class="container-fluid">
+  <!-- <div class="backg-img-contact"> -->
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12">
+        <div class="margin-planets">
+          <div class="planet-flex-cont">
+            <div class="circles">
+              <div class="mercury planets">
+                <%= image_tag("mercury.png", size: "80x80", :alt => "mercury") %>
+              </div>
+            </div>
+            <div class="circles">
+              <div class="venus planets">
+                <%= image_tag("venus.png", size: "80x80", :alt => "venus") %>
+              </div>
+            </div>
+            <div class="circles">
+              <div class="earth planets">
+                <%= image_tag("earth.png", size: "80x80", :alt => "earth") %>
+              </div>
+            </div>
+            <div class="circles">
+              <div class="mars planets">
+                <%= image_tag("mars_clear.png", size: "80x80", :alt => "mars") %>
+              </div>
+            </div>
+            <div class="circles">
+              <div class="jupiter planets">
+                <%= image_tag("jupiter_clear.png", size: "80x80", :alt => "jupiter") %>
+              </div>
+            </div>
+            <div class="circles">
+              <div class="saturn planets">
+                <%= image_tag("saturn.png", size: "80x80", :alt => "saturn") %>
+              </div>
+            </div>
+            <div class="circles">
+              <div class="uranus planets">
+                <%= image_tag("uranus_clear.png", size: "80x80", :alt => "uranus") %>
+              </div>
+            </div>
+            <div class="circles">
+              <div class="neptune planets">
+                <%= image_tag("neptune.png", size: "80x80", :alt => "neptune") %>
+              </div>
+            </div>
+            <div class="circles">
+              <div class="pluto planets">
+                <%= image_tag("pluto_clear.png", size: "80x80", :alt => "pluto") %>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- TEXT  -->
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-6">
+        <div class="boxes">
+          <h1> this is some text to give us an indicator of what is happening<h1>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-6">
+        <div class="boxes">
+          <h1> this is some text to give us an indicator of what is happening<h1>
+        </div>
+      </div>
+    </div>
+    <!-- FOOTER  -->
+    <div class="row">
+      <div class="col-12">
+        <div class="footer">
+          <p> this is some text to give us an indicator of what is happening<p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- CSS
+
+////////////////// BACKGROUND IMAGES ////////////////
+
+.backg-img-contact {
+
+  // background-color: green;
+  background-image: url( <%= asset_path 'stars_index.jpeg' %> );
+  background-position: center bottom;
+  background-size: cover;
+  background-attachment: fixed;
+
+
+}
+
+.backg-img-about {
+
+  background-color: cyan;
+}
+
+.backg-img-index {
+
+  background: url(/assets/stars_index.jpeg) no-repeat;
+  background-position: center;
+
+
+}
+
+/////////////// HEADER & FOOTER ////////////////
+
+#back-menu {
+
+  width: 100%;
+  height: 8.3rem;
+  margin: 0;
+  // background-color: #1a237e;
+  background: linear-gradient( rgba(25,25,112,1), rgba(25,25,112,0));
+
+  // -ms-transform: rotate(7deg); /* IE 9 */
+  // -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+  // transform: rotate(7deg);
+}
+
+
+.footer {
+
+  width: 100%;
+  height: 7.3rem;
+  // background-color: #1a237e;
+
+  position: absolute;
+  bottom:0;
+  width:100%;
+
+  background: linear-gradient(to top, rgba(25,25,112,1), rgba(25,25,112,0));
+  // background: black; /* For browsers that do not support gradients */
+  //  background: -webkit-linear-gradient(bottom,black,blue); /* For Safari 5.1 to 6.0 */
+  //  background: -o-linear-gradient(bottom,black,blue); /* For Opera 11.1 to 12.0 */
+  //  background: -moz-linear-gradient(bottom,black,blue); /* For Firefox 3.6 to 15 */
+  //  background: linear-gradient(bottom,black,blue); /* Standard syntax */
+
+}
+
+///////////////// NAV BAR PLANETS //////////////////
+
+.margin-planets {
+
+  margin: 0 7em 0 7em;
+}
+
+.planet-flex-cont {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/////////////// Circles behind planets /////////////////////////
+.circles {
+
+  height: 9.5rem;
+  width: 9.5rem;
+  background-color: #000000;
+  border-radius: 50%;
+
+  -moz-box-shadow: 3px 3px 4px #000;
+  -webkit-box-shadow: 3px 3px 4px #000;
+  box-shadow: 3px 3px 4px #000;
+
+  // create spinning gradient
+  // background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, yellow 0%, orange 100%, red 95%);
+	// background-image: -webkit-radial-gradient(45px 45px, circle cover, yellow, orange);
+	// background-image: radial-gradient(45px 45px 45deg, circle cover, yellow 0%, orange 100%, red 95%);
+  //
+	// animation-name: spin;
+	// animation-duration: 3s; /* 3 seconds */
+	// animation-iteration-count: infinite;
+	// animation-timing-function: linear;
+}
+
+//////////////// PLANET PICTURES //////////////////
+
+.mercury {
+  margin: .6em .5em;
+}
+
+.colour-one {
+  background-color: #000000;
+}
+
+.venus {
+  margin: .6em .5em;
+}
+
+.earth {
+  margin: .6em .5em;
+  // box-shadow: 10px 10px 5px #888888;
+
+}
+
+.mars {
+  margin: .7em .6em;
+}
+
+.jupiter {
+  margin: .8em .6em;
+}
+
+.saturn {
+  margin: .8em .7em;
+}
+
+.uranus {
+  margin: .7em .4em;
+}
+
+.neptune {
+  margin: .8em .7em;
+}
+
+.pluto {
+  margin: .8em .7em;
+}
+
+////////////// TEXT STUFF ///////
+
+.boxes {
+  height: 30em;
+  width: auto;
+  background-color: blue;
+  margin: 10em;
+  justify-content: center;
+  align-items: center;
+
+}
+
+h1 {
+  text-align: justify;
+} -->

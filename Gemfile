@@ -54,3 +54,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # gems I've installed
 gem 'bootstrap-sass', '~> 3.3.6'
+
+#bulma
+gem "bulma-rails", "~> 0.3.2"

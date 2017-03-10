@@ -2,16 +2,16 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-* {
-    border: 1px solid red !important;
-}
+// * {
+//     border: 1px solid red !important;
+// }
 
 // web design in 4 mins
-body {
-  margin: 0 auto;
-  max-width: 75em;
-  background-color: #1A237E;
-}
+// body {
+//   margin: 0 auto;
+//   max-width: 75em;
+//   background-color: #1A237E;
+// }
 // easier to read fonts
 // body {
 //   font-family: "Helvetica", "Arial", sans-serif;
@@ -39,100 +39,55 @@ body {
 //   color: #333;
 // }
 
-s
 
 //////////// FONT ///////////
 
 .font-heading {
 
   font-family: 'Roboto', sans-serif;
+  color: #E8EAF6;
 }
 
 
 .font-paragraph {
 
   font-family: 'Roboto Slab', serif;
+  color: #E8EAF6;
 
 }
 
-///////////////// NAV BAR /////////////
+//////////////// MY HERO //////////////
 
-.nav-custom {
+.custom-hero {
+  background: red; /* For browsers that do not support gradients */
+  //  background: -webkit-linear-gradient(#1A237E, #3F51B5); /* For Safari 5.1 to 6.0 */
+  //  background: -o-linear-gradient(#1A237E, #3F51B5); /* For Opera 11.1 to 12.0 */
+  //  background: -moz-linear-gradient(#1A237E, #3F51B5); /* For Firefox 3.6 to 15 */
+  //  background: linear-gradient(#1A237E, #3F51B5); /* Standard syntax */
 
-  text-align: center;
-  background-color: #304FFE;
-  border-color: #8C9EFF;
-  max-width: 75em;
-  margin: 0 auto;
+   background: -webkit-linear-gradient(rgba(255,0,0,1),rgba(255,0,0,0)); /*Safari 5.1-6*/
+background: -o-linear-gradient(rgba(255,0,0,1),rgba(255,0,0,0)); /*Opera 11.1-12*/
+background: -moz-linear-gradient(rgba(255,0,0,1),rgba(255,0,0,0)); /*Fx 3.6-15*/
+background: linear-gradient( rgba(255,0,0,1), rgba(255,0,0,0)); /*Standard*/
+  //  transform: skewX(25deg);
 
 }
 
-.nav-links-cust {
+.custom-hero-1 {
 
-  margin: 0 0 0 20em;
+  background: -webkit-linear-gradient(rgba(255,0,0,0),rgba(255,0,0,1)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(rgba(255,0,0,0),rgba(255,0,0,1)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(rgba(255,0,0,0),rgba(255,0,0,1)); /*Fx 3.6-15*/
+  background: linear-gradient( rgba(255,0,0,0), rgba(255,0,0,1)); /*Standard*/
+ //  transform: skewX(25deg);
+
+  height: 70vh;
 
 }
-
-/////////// SECOND SECTION ///////
-
-// .triangle_down {
-//   width: 0;
-//   height: 0;
-//   border-top: 500px solid #20a3bf;
-//   border-left: 525px solid transparent;
-//   border-right: 525px solid transparent;
-//   display: flex;
-// }
-
-/*Down pointing*/
-// .triangle-down {
-//     width: 25%;
-//     height: 0;
-//     // padding-left:50%;
-//     // padding-right: 80%;
-//     // padding-top: 30.5%;
-//     padding-left:50%;
-//     padding-top: 47.5%;
-//     overflow: hidden;
-//     // margin-left: 1px;
-//     // margin-top: 200px;
-//
-//
-//     // border-top: 500px solid #20a3bf;
-//     // border-left: 525px solid transparent;
-//     // border-right: 525px solid transparent;
-//
-// }
-// .triangle-down:after {
-//     content: "";
-//     display: block;
-//     width: 0;
-//     height: 0;
-//     margin-left:-500px;
-//     margin-top:-500px;
-//
-//     border-left: 500px solid transparent;
-//     border-right: 500px solid transparent;
-//     border-top: 500px solid #304FFE;
-// }
-
-// doesn't work when we trying to make it responsive
-// .circle {
-//   background-color: #EC407A;
-//   height: 25%;
-//   width: 25%;
-//   padding: 25%;
-//   -moz-border-radius: 50%;
-//   -webkit-border-radius: 50%;
-//   border-radius: 50%;
-//   // text-align: center;
-//   // padding-left: 100px;
-//   //margin-left: 30%;
-// }
 
 /// this makes it responsive
 .circle-text {
-    width:50%;
+    width:60%;
 }
 .circle-text:after {
     content: "";
@@ -144,6 +99,8 @@ s
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
+    margin-top: -60%;
+    box-shadow: 0 0 15em #304FFE;
 }
 .circle-text div {
     float:left;
@@ -155,21 +112,34 @@ s
     color:white;
 }
 
-
-///////// SECTIONs ///////////////
-
-#section1 {
-
-  padding-top:50px;
-  height: 100vh;
-  color: #fff;
-  background-color: #EC407A;
-
+.circle-text-img {
+    width:60%;
 }
 
+.circle-text-img::after
+{
+    content: "";
+    display: block;
+    width: 100%;
+    height:0;
+    padding-bottom: 100%;
+    background: #EC407A;
+    background-image: url("mercury.png");
+    background-position: center;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin-top: -60%;
+    box-shadow: 0 0 15em #304FFE;
+}
 
-
- #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
- #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
- #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
- #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
+.circle-text-img div
+{
+   float:left;
+   width:100%;
+   padding-top:50%;
+   line-height:1em;
+   margin-top:-0.5em;
+   text-align:center;
+   color:white;
+}
