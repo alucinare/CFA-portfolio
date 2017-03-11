@@ -2,19 +2,30 @@
 <html>
   <head>
     <title>JohnStewart</title>
+
+    <script src="https://use.fontawesome.com/f14f777a6d.js"></script>
+
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:400,700,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+
   </head>
 
   <body>
-    <%= render 'nav' %>
+
+    <%= render 'nav' unless @disable_nav %>
+
 
     <%= yield %>
 
-
+    <%= render 'footer' unless @disable_nav %>
   </body>
 </html>

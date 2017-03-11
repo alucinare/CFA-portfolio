@@ -1,7 +1,7 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
+//
 // * {
 //     border: 1px solid red !important;
 // }
@@ -45,7 +45,7 @@
 .font-heading {
 
   font-family: 'Roboto', sans-serif;
-  color: #E8EAF6;
+  // color: #E8EAF6;
 }
 
 
@@ -55,6 +55,8 @@
   color: #E8EAF6;
 
 }
+
+// ################## ABOUT ME ################### ///
 
 //////////////// MY HERO //////////////
 
@@ -85,7 +87,7 @@ background: linear-gradient( rgba(255,0,0,1), rgba(255,0,0,0)); /*Standard*/
 
 }
 
-/// this makes it responsive
+/////////// RESPONSIVE CIRCLES //////////////
 .circle-text {
     width:60%;
 }
@@ -193,3 +195,220 @@ background: linear-gradient( rgba(255,0,0,1), rgba(255,0,0,0)); /*Standard*/
 //   background-repeat: no-repeat;
 //   margin-left: 10%;
 // }
+
+
+// ############# PARTIAL ################ //
+
+/////////////// NAV BAR ////////////
+
+.nav-custom {
+
+  text-align: center;
+  background-color: red;
+  // border-color: #8C9EFF;
+  // max-width: 100%;
+  margin: 0 auto;
+  color: white;
+
+}
+
+.c-collp {
+  background-color: blue;
+}
+
+.nav-links-cust {
+
+  margin: 0 0 0 10em;
+  background-color: transparent;
+  color: white;
+
+}
+
+// .nav-links {
+//   padding-left: 5em;
+//   padding-right: 5em;
+//   color: white;
+//   margin: 4em 1em 0em 0em;
+//   text-align: center;
+//
+// }
+
+.nav-words-col {
+  color: white;
+}
+
+.nav-words-col:hover {
+  color: black;
+}
+
+.nav-root {
+  font-size: 1em;
+}
+
+///////////// FOOTER ///////////
+
+.footer-custom {
+  background-color: red;
+  padding: 0;
+}
+
+.custom-icon {
+  font-size: 50%;
+}
+
+
+// ###################### INDEX PAGE ################# //
+
+.blue {
+  background-color: blue;
+  width: 100%;
+  height: 100%;
+}
+
+.circles {
+    width:60%;
+}
+.circles:after {
+    content: "";
+    display: inline-block;
+    width: 5em;
+    height: 5em;
+    // padding-bottom: 100%;
+    background: #EC407A;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    box-shadow: 0 0 15em #304FFE;
+}
+.circles div {
+    float:left;
+    width:100%;
+    padding-top:50%;
+    line-height:1em;
+    margin-top:-0.5em;
+    text-align:center;
+    color:white;
+}
+
+.backg-img {
+
+  background-color: green;
+
+}
+
+.planet-flex-cont {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // padding: 17px 100px 0px 100px;
+
+}
+
+.links {
+
+  background-color: black;
+  color: white;
+  margin: 4em 1em 0em 0em;
+  text-align: center
+
+}
+
+.circle {
+
+  height: 9.5rem;
+  width: 9.5rem;
+  // background-color: blue;
+  border-radius: 50%;
+  border-style: outset;
+
+  background: linear-gradient(73deg, #1633d2, #169fd2, #16d278);
+  background-size: 600% 600%;
+
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+
+  @-webkit-keyframes AnimationName {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+  @-moz-keyframes AnimationName {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+  @keyframes AnimationName {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+
+}
+
+.box {
+
+  height: 9.5rem;
+  width: 9.5rem;
+  background-color: red;
+  // border-radius: 50%;
+  padding-top: 5em;
+  border-style: inset;
+
+  background: linear-gradient(270deg, #6c0583, #c10699, #c03ad5);
+background-size: 600% 600%;
+
+-webkit-animation: AnimationName 30s ease infinite;
+-moz-animation: AnimationName 30s ease infinite;
+animation: AnimationName 30s ease infinite;
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+}
+
+h1 {
+  text-align: center;
+  margin-top: 21%;
+  font-size: 5em;
+}
+
+.b-colr {
+  background-color: black;
+}
+
+#gradient
+{
+  width: 100%;
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+}
+
+// ################ SKILLZ PAGE ############ //
+
+.skills-icon {
+  font-size: 10em;
+}
+
+.text-center {
+   text-align:center
+}
+
+.margin-icons {
+  margin-top: 10rem;
+}

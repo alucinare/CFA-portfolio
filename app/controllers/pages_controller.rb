@@ -3,10 +3,10 @@ class PagesController < ApplicationController
   end
 
   def index
+    @disable_nav = true
   end
 
   def about
-    @about = "hello about"
 
   end
 
@@ -18,6 +18,5 @@ class PagesController < ApplicationController
 
   def contact
 
-    @contact = "hello contact"
   end
 end
