@@ -73,7 +73,7 @@ Otherwise, if you can run the site from a local host following these steps:
 
 - Wire frame of redesign. Current design is based on this minus the triangles.
 
-![alt tag](https://github.com/alucinare/CFA-portfolio/blob/master/Images/20170313_091618.jpg)
+![alt tag](https://github.com/alucinare/CFA-portfolio/blob/master/Images/20170313_091646.jpg)
 
 - Trello board of project
 
