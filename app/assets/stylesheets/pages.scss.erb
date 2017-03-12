@@ -60,27 +60,28 @@
 
 //////////////// MY HERO //////////////
 
-.custom-hero {
+.custom-hero-top {
   background: red; /* For browsers that do not support gradients */
   //  background: -webkit-linear-gradient(#1A237E, #3F51B5); /* For Safari 5.1 to 6.0 */
   //  background: -o-linear-gradient(#1A237E, #3F51B5); /* For Opera 11.1 to 12.0 */
   //  background: -moz-linear-gradient(#1A237E, #3F51B5); /* For Firefox 3.6 to 15 */
   //  background: linear-gradient(#1A237E, #3F51B5); /* Standard syntax */
 
-   background: -webkit-linear-gradient(rgba(255,0,0,1),rgba(255,0,0,0)); /*Safari 5.1-6*/
-background: -o-linear-gradient(rgba(255,0,0,1),rgba(255,0,0,0)); /*Opera 11.1-12*/
-background: -moz-linear-gradient(rgba(255,0,0,1),rgba(255,0,0,0)); /*Fx 3.6-15*/
-background: linear-gradient( rgba(255,0,0,1), rgba(255,0,0,0)); /*Standard*/
+//    background: -webkit-linear-gradient(rgba(10,14,49,1),rgba(10,14,49,0)); /*Safari 5.1-6*/
+// background: -o-linear-gradient(rgba(10,14,49,1),rgba(10,14,49,0)); /*Opera 11.1-12*/
+// background: -moz-linear-gradient(rgba(10,14,49,1),rgba(10,14,49,0)); /*Fx 3.6-15*/
+background: linear-gradient( rgba(63, 81, 181, 1), rgba(0, 150, 136, .9), rgba(255, 152, 0, 0)); //1: 2:#03A9F4 3: /*Standard*/
   //  transform: skewX(25deg);
 
 }
 
-.custom-hero-1 {
+.custom-hero-mid {
 
-  background: -webkit-linear-gradient(rgba(255,0,0,0),rgba(255,0,0,1)); /*Safari 5.1-6*/
-  background: -o-linear-gradient(rgba(255,0,0,0),rgba(255,0,0,1)); /*Opera 11.1-12*/
-  background: -moz-linear-gradient(rgba(255,0,0,0),rgba(255,0,0,1)); /*Fx 3.6-15*/
-  background: linear-gradient( rgba(255,0,0,0), rgba(255,0,0,1)); /*Standard*/
+  // background: -webkit-linear-gradient(rgba(255,0,0,0),rgba(255,0,0,1)); /*Safari 5.1-6*/
+  // background: -o-linear-gradient(rgba(255,0,0,0),rgba(255,0,0,1)); /*Opera 11.1-12*/
+  // background: -moz-linear-gradient(rgba(255,0,0,0),rgba(255,0,0,1)); /*Fx 3.6-15*/
+  // background: linear-gradient( rgba(255,0,0,0), rgba(255,0,0,1)); /*Standard*/
+  background: linear-gradient( rgba(255, 152, 0, 0), rgba(0, 150, 136, .9), rgba(63, 81, 181, 1));
  //  transform: skewX(25deg);
 
   height: 70vh;
@@ -97,12 +98,12 @@ background: linear-gradient( rgba(255,0,0,1), rgba(255,0,0,0)); /*Standard*/
     width: 100%;
     height:0;
     padding-bottom: 100%;
-    background: #EC407A;
+    background: #F44336;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
     margin-top: -60%;
-    box-shadow: 0 0 15em #304FFE;
+    box-shadow: 0 0 15em rgba(0, 150, 136, .9);
 }
 .circle-text div {
     float:left;
@@ -125,14 +126,14 @@ background: linear-gradient( rgba(255,0,0,1), rgba(255,0,0,0)); /*Standard*/
     width: 100%;
     height:0;
     padding-bottom: 100%;
-    background: #EC407A;
+    background: #F44336;
     background-image: url("mercury.png");
     background-position: center;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
     margin-top: -60%;
-    box-shadow: 0 0 15em #304FFE;
+    box-shadow: 0 0 15em rgba(63, 81, 181, 1);
 }
 
 .circle-text-img div
@@ -201,61 +202,130 @@ background: linear-gradient( rgba(255,0,0,1), rgba(255,0,0,0)); /*Standard*/
 
 /////////////// NAV BAR ////////////
 
+// nav general
 .nav-custom {
 
   text-align: center;
-  background-color: red;
+  background-color: rgba(63, 81, 181, 1);
   // border-color: #8C9EFF;
-  // max-width: 100%;
+  max-width: 100%;
+  position:fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 1;
   margin: 0 auto;
   color: white;
 
 }
-
-.c-collp {
-  background-color: blue;
+ // left link to splash
+.navbar-default .navbar-brand {
+  color: rgb(77, 208, 225);
 }
 
+.navbar-default .navbar-brand:hover {
+  color:  #F44336;
+}
+
+// burger menu
+.c-collp {
+  background-color: rgb(77, 208, 225);
+}
+
+// when nav collapse into burger
+@media (max-width: 1050px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
+
+//  links container
 .nav-links-cust {
 
-  margin: 0 0 0 10em;
+  margin: 0 0 0 19em;
   background-color: transparent;
-  color: white;
 
 }
 
-// .nav-links {
-//   padding-left: 5em;
-//   padding-right: 5em;
-//   color: white;
-//   margin: 4em 1em 0em 0em;
-//   text-align: center;
-//
-// }
-
-.nav-words-col {
-  color: white;
+.nav-links-cust > li {
+  padding-left: 3em;
+  padding-right: 3em;
 }
 
-.nav-words-col:hover {
-  color: black;
+
+// color of link texts
+.navbar-default .navbar-nav > li > a {
+  color: rgb(77, 208, 225);
 }
 
-.nav-root {
-  font-size: 1em;
+// colour of text link when hover
+.navbar-default .navbar-nav > li > a:hover {
+  color: #F44336;
+}
+
+// colour of active link
+.navbar-default .navbar-nav > .active > a {
+  color: rgb(224, 247, 250);
+  background-color: #F44336;
+}
+
+// colour of link when hover
+.navbar-default .navbar-nav > .active > a:hover {
+  color: #F44336;
+  background-color: rgb(77, 208, 225);
 }
 
 ///////////// FOOTER ///////////
 
+// general style of footer
 .footer-custom {
-  background-color: red;
+  background-color: rgba(63, 81, 181, 1);
+  color: rgb(77, 208, 225);
   padding: 0;
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
 
-.custom-icon {
-  font-size: 50%;
+// space between icons
+.footer-custom > p > a > i {
+  padding-left: .7em;
+  padding-right: .7em;
 }
 
+.name {
+  color: #F44336;
+}
 
 // ###################### INDEX PAGE ################# //
 
@@ -410,5 +480,9 @@ h1 {
 }
 
 .margin-icons {
-  margin-top: 10rem;
+  margin-top: 5rem;
+}
+
+.row-space {
+  margin-bottom: 2em;
 }
