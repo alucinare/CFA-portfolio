@@ -113,7 +113,7 @@ background: linear-gradient( rgba(63, 81, 181, 1), rgba(0, 150, 136, .9), rgba(2
 .circle-text div {
     float:left;
     width:100%;
-    padding-top:50%;
+    padding-top:43%;
     line-height:1em;
     margin-top:-0.5em;
     text-align:center;
@@ -133,8 +133,8 @@ background: linear-gradient( rgba(63, 81, 181, 1), rgba(0, 150, 136, .9), rgba(2
     height:0;
     padding-bottom: 100%;
     background: #F44336;
-    background-image: url("atm_app.png");
-    background-position: center;
+    background-image: url("bw_me.png");
+    background-size: cover;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
@@ -152,14 +152,43 @@ background: linear-gradient( rgba(63, 81, 181, 1), rgba(0, 150, 136, .9), rgba(2
    text-align:center;
    color:white;
 }
+// without images
 
+.circle-text-1 {
+    width:60%;
+}
+
+.circle-text-1::after
+{
+    content: "";
+    display: block;
+    width: 100%;
+    height:0;
+    padding-bottom: 100%;
+    background: #F44336;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin-top: -60%;
+    box-shadow: 0 0 15em rgba(63, 81, 181, 1);
+}
+
+.circle-text-1 div
+{
+   float:left;
+   width:100%;
+   padding-top:50%;
+   line-height:1em;
+   margin-top:-0.5em;
+   text-align:center;
+   color:white;
+}
 
 .margin-circles-1 {
   margin-left: 10%;
 }
 
 .margin-circles {
-  // margin-left: 10%;
   margin-right: -10%;
 }
 
@@ -195,157 +224,6 @@ background: linear-gradient( rgba(63, 81, 181, 1), rgba(0, 150, 136, .9), rgba(2
   margin-right: auto;
 
 }
-//
-// .blue-1 {
-//   background-image: url("mercury.png");
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   margin-left: 10%;
-// }
-
-
-// ###################### INDEX PAGE ################# //
-
-.blue {
-  background-color: blue;
-  width: 100%;
-  height: 100%;
-}
-
-.circles {
-    width:60%;
-}
-.circles:after {
-    content: "";
-    display: inline-block;
-    width: 5em;
-    height: 5em;
-    // padding-bottom: 100%;
-    background: #EC407A;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    box-shadow: 0 0 15em #304FFE;
-}
-.circles div {
-    float:left;
-    width:100%;
-    padding-top:50%;
-    line-height:1em;
-    margin-top:-0.5em;
-    text-align:center;
-    color:white;
-}
-
-.backg-img {
-
-  background-color: green;
-
-}
-
-.planet-flex-cont {
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  // padding: 17px 100px 0px 100px;
-
-}
-
-.links {
-
-  background-color: black;
-  color: white;
-  margin: 4em 1em 0em 0em;
-  text-align: center
-
-}
-
-.circle {
-
-  height: 9.5rem;
-  width: 9.5rem;
-  // background-color: blue;
-  border-radius: 50%;
-  border-style: outset;
-
-  background: linear-gradient(73deg, #1633d2, #169fd2, #16d278);
-  background-size: 600% 600%;
-
-  -webkit-animation: AnimationName 30s ease infinite;
-  -moz-animation: AnimationName 30s ease infinite;
-  animation: AnimationName 30s ease infinite;
-
-  @-webkit-keyframes AnimationName {
-      0%{background-position:0% 50%}
-      50%{background-position:100% 50%}
-      100%{background-position:0% 50%}
-  }
-  @-moz-keyframes AnimationName {
-      0%{background-position:0% 50%}
-      50%{background-position:100% 50%}
-      100%{background-position:0% 50%}
-  }
-  @keyframes AnimationName {
-      0%{background-position:0% 50%}
-      50%{background-position:100% 50%}
-      100%{background-position:0% 50%}
-  }
-
-}
-
-.box {
-
-  height: 9.5rem;
-  width: 9.5rem;
-  background-color: red;
-  // border-radius: 50%;
-  padding-top: 5em;
-  border-style: inset;
-
-  background: linear-gradient(270deg, #6c0583, #c10699, #c03ad5);
-background-size: 600% 600%;
-
--webkit-animation: AnimationName 30s ease infinite;
--moz-animation: AnimationName 30s ease infinite;
-animation: AnimationName 30s ease infinite;
-
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-
-}
-
-h1 {
-  text-align: center;
-  margin-top: 21%;
-  font-size: 5em;
-}
-
-.b-colr {
-  background-color: black;
-}
-
-#gradient
-{
-  width: 100%;
-  height: 100vh;
-  padding: 0px;
-  margin: 0px;
-}
-
 // ################ SKILLZ PAGE ############ //
 
 // .icon-section {
