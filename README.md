@@ -58,3 +58,31 @@ Otherwise, if you can run the site from a local host following these steps:
   5) In a browser type `http://localhost:3000/` and you'll be taken to the splash page.
 
 ## Photos
+
+- Trello board of project
+
+ ![alt tag](https://github.com/alucinare/CFA-portfolio/blob/master/Images/portfolio_trello.png)
+ 
+ - Experimental splash page
+ 
+ ![alt tag](https://github.com/alucinare/CFA-portfolio/blob/master/Images/splash_page.png)
+ 
+ - About page top
+ 
+ ![alt tag](https://github.com/alucinare/CFA-portfolio/blob/master/Images/about_page.png)
+ 
+ - About page bottom
+ 
+ ![alt tag](https://github.com/alucinare/CFA-portfolio/blob/master/Images/about_page_1.png)
+ 
+ - Skillz page
+ 
+ ![alt tag](https://github.com/alucinare/CFA-portfolio/blob/master/Images/skills_page.png)
+ 
+ - Project page
+ 
+ ![alt tag](https://github.com/alucinare/CFA-portfolio/blob/master/Images/projects_page.png)
+ 
+ - Contact page
+ 
+ ![alt tag](https://github.com/alucinare/CFA-portfolio/blob/master/Images/contact_page.png)
