@@ -59,6 +59,22 @@ Otherwise, if you can run the site from a local host following these steps:
 
 ## Photos
 
+- Wire frame of original design: front page, nav bar, a page.
+
+![alt tag](https://github.com/alucinare/CFA-portfolio/blob/master/Images/20170313_091632.jpg)
+
+- Wire frame of original design: general pages
+
+![alt tag](https://github.com/alucinare/CFA-portfolio/blob/master/Images/20170313_091626.jpg)
+
+- Wire frame of original design: more general pages.
+
+![alt tag](https://github.com/alucinare/CFA-portfolio/blob/master/Images/20170313_091618.jpg)
+
+- Wire frame of redesign. Current design is based on this minus the triangles.
+
+![alt tag](https://github.com/alucinare/CFA-portfolio/blob/master/Images/20170313_091618.jpg)
+
 - Trello board of project
 
  ![alt tag](https://github.com/alucinare/CFA-portfolio/blob/master/Images/portfolio_trello.png)
