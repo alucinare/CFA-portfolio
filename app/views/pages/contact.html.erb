@@ -1,5 +1,35 @@
-<!-- <body  class="backg-img-contact">
-  <h1>Pages#contact</h1>
-  <p>Find me in app/views/pages/contact.html.erb<%= @hello %> IS MEANT TO GO</p>
-
-</body> -->
+<section class="container-fluid contact-margins">
+  <label class="label">Name</label>
+  <p class="control">
+    <input class="input" type="text" placeholder="Text input">
+  </p>
+  <label class="label">Email</label>
+  <p class="control has-icon has-icon-right">
+    <input class="input" type="text" placeholder="Email input" value="">
+    <!-- <span class="icon is-small">
+      <i class="fa fa-warning"></i>
+    </span> -->
+    <!-- <span class="help is-danger">This email is invalid</span> this goes next to input: "is-danger" -->
+  </p>
+  <label class="label">Subject</label>
+  <p class="control">
+    <span class="select">
+      <select>
+        <option>Select dropdown</option>
+        <option>With options</option>
+      </select>
+    </span>
+  </p>
+  <label class="label">Message</label>
+  <p class="control">
+    <textarea class="textarea" placeholder="Textarea"></textarea>
+  </p>
+  <div class="control is-grouped">
+    <p class="control">
+      <button class="button is-primary">Submit</button>
+    </p>
+    <p class="control">
+      <button class="button is-link">Cancel</button>
+    </p>
+  </div>
+</section>
