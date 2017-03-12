@@ -1,0 +1,108 @@
+// ############# PARTIAL ################ //
+
+/////////////// NAV BAR ////////////
+
+// nav general
+.nav-custom {
+
+  text-align: center;
+  background-color: rgba(63, 81, 181, 1);
+  // border-color: #8C9EFF;
+  max-width: 100%;
+  position:fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  margin: 0 auto;
+  color: white;
+
+}
+
+ // left link to splash
+.navbar-default .navbar-brand {
+  color: rgb(77, 208, 225);
+}
+
+.navbar-default .navbar-brand:hover {
+  color:  #F44336;
+}
+
+// burger menu
+.c-collp {
+  background-color: rgb(77, 208, 225);
+}
+
+// when nav collapse into burger
+@media (max-width: 1150px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
+
+//  links container
+.nav-links-cust {
+
+  margin: 0 0 0 25em;
+  background-color: transparent;
+
+}
+
+.nav-links-cust > li {
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+
+// color of link texts
+.navbar-default .navbar-nav > li > a {
+  color: rgb(77, 208, 225);
+}
+
+// colour of text link when hover
+.navbar-default .navbar-nav > li > a:hover {
+  color: #F44336;
+}
+
+// colour of active link
+.navbar-default .navbar-nav > .active > a {
+  color: rgb(224, 247, 250);
+  background-color: #F44336;
+}
+
+// colour of link when hover
+.navbar-default .navbar-nav > .active > a:hover {
+  color: #F44336;
+  background-color: rgb(77, 208, 225);
+}

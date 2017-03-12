@@ -89,9 +89,12 @@ background: linear-gradient( rgba(63, 81, 181, 1), rgba(0, 150, 136, .9), rgba(2
 }
 
 /////////// RESPONSIVE CIRCLES //////////////
+
+// bigger single circle
 .circle-text {
     width:60%;
 }
+// for responsive circle
 .circle-text:after {
     content: "";
     display: block;
@@ -105,6 +108,8 @@ background: linear-gradient( rgba(63, 81, 181, 1), rgba(0, 150, 136, .9), rgba(2
     margin-top: -60%;
     box-shadow: 0 0 15em rgba(0, 150, 136, .9);
 }
+
+// for responsive text in circle
 .circle-text div {
     float:left;
     width:100%;
@@ -115,6 +120,7 @@ background: linear-gradient( rgba(63, 81, 181, 1), rgba(0, 150, 136, .9), rgba(2
     color:white;
 }
 
+// smaller tri circles
 .circle-text-img {
     width:60%;
 }
@@ -127,7 +133,7 @@ background: linear-gradient( rgba(63, 81, 181, 1), rgba(0, 150, 136, .9), rgba(2
     height:0;
     padding-bottom: 100%;
     background: #F44336;
-    background-image: url("mercury.png");
+    background-image: url("atm_app.png");
     background-position: center;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -197,135 +203,6 @@ background: linear-gradient( rgba(63, 81, 181, 1), rgba(0, 150, 136, .9), rgba(2
 //   margin-left: 10%;
 // }
 
-
-// ############# PARTIAL ################ //
-
-/////////////// NAV BAR ////////////
-
-// nav general
-.nav-custom {
-
-  text-align: center;
-  background-color: rgba(63, 81, 181, 1);
-  // border-color: #8C9EFF;
-  max-width: 100%;
-  position:fixed;
-  left: 0;
-  top: 0;
-  right: 0;
-  z-index: 1;
-  margin: 0 auto;
-  color: white;
-
-}
- // left link to splash
-.navbar-default .navbar-brand {
-  color: rgb(77, 208, 225);
-}
-
-.navbar-default .navbar-brand:hover {
-  color:  #F44336;
-}
-
-// burger menu
-.c-collp {
-  background-color: rgb(77, 208, 225);
-}
-
-// when nav collapse into burger
-@media (max-width: 1050px) {
-    .navbar-header {
-        float: none;
-    }
-    .navbar-left,.navbar-right {
-        float: none !important;
-    }
-    .navbar-toggle {
-        display: block;
-    }
-    .navbar-collapse {
-        border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-    }
-    .navbar-fixed-top {
-        top: 0;
-        border-width: 0 0 1px;
-    }
-    .navbar-collapse.collapse {
-        display: none!important;
-    }
-    .navbar-nav {
-        float: none!important;
-        margin-top: 7.5px;
-    }
-    .navbar-nav>li {
-        float: none;
-    }
-    .navbar-nav>li>a {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .collapse.in{
-        display:block !important;
-    }
-}
-
-//  links container
-.nav-links-cust {
-
-  margin: 0 0 0 19em;
-  background-color: transparent;
-
-}
-
-.nav-links-cust > li {
-  padding-left: 3em;
-  padding-right: 3em;
-}
-
-
-// color of link texts
-.navbar-default .navbar-nav > li > a {
-  color: rgb(77, 208, 225);
-}
-
-// colour of text link when hover
-.navbar-default .navbar-nav > li > a:hover {
-  color: #F44336;
-}
-
-// colour of active link
-.navbar-default .navbar-nav > .active > a {
-  color: rgb(224, 247, 250);
-  background-color: #F44336;
-}
-
-// colour of link when hover
-.navbar-default .navbar-nav > .active > a:hover {
-  color: #F44336;
-  background-color: rgb(77, 208, 225);
-}
-
-///////////// FOOTER ///////////
-
-// general style of footer
-.footer-custom {
-  background-color: rgba(63, 81, 181, 1);
-  color: rgb(77, 208, 225);
-  padding: 0;
-  margin-top: 3em;
-  margin-bottom: 3em;
-}
-
-// space between icons
-.footer-custom > p > a > i {
-  padding-left: .7em;
-  padding-right: .7em;
-}
-
-.name {
-  color: #F44336;
-}
 
 // ###################### INDEX PAGE ################# //
 
@@ -471,6 +348,10 @@ h1 {
 
 // ################ SKILLZ PAGE ############ //
 
+// .icon-section {
+//   background-color: black;
+// }
+
 .skills-icon {
   font-size: 10em;
 }
@@ -480,9 +361,18 @@ h1 {
 }
 
 .margin-icons {
-  margin-top: 5rem;
+  margin-top: 9rem;
 }
 
 .row-space {
   margin-bottom: 2em;
+}
+
+.row-space-1 {
+    height: 100%;
+    background-color: blue;
+}
+
+.back {
+  background-color: black;
 }
