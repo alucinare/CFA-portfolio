@@ -65,7 +65,7 @@ Otherwise, if you can run the site from a local host following these steps:
  
  - Experimental splash page
  
- ![alt tag](https://johnstewartportfolio.herokuapp.com/)
+ ![alt tag](https://github.com/alucinare/CFA-portfolio/blob/master/Images/splash_page.png)
  
  - About page top
  
