@@ -5,23 +5,14 @@
 
 // home
 
-.fullscreen-bg {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  overflow: hidden;
-  z-index: -100;
-}
-
 .fullscreen-bg-video {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%    !important;
   height: auto   !important;
-  z-index: -100;
+  z-index: -1;
+  border-bottom: 5px solid #3797b6;
 }
 
 .transparent {
@@ -36,16 +27,3 @@
 .margin-title {
   margin-top: 15%;
 }
-
-
-// .home-container {
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-//   bottom: 200px;
-//   right: 0;
-//   width: 400px;
-//   height: 200px;
-//   margin: auto;
-// z-index: 3;
-// }

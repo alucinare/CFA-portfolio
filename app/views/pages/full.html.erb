@@ -1,3 +1,4 @@
+<!-- navbar, video, and title -->
 <header>
   <nav>
     <div class="columns nav-margin">
@@ -12,13 +13,11 @@
       </div>
     </div>
   </nav>
-  <div class="full-screen-bg">
-    <div class="transparent">
-      <%= video_tag 'front_page_vid.mp4', controls: false, autoplay: true, muted: true, loop: true, id: 'bgvid', class: 'fullscreen-bg-video', type: 'video/mp4' %>
-    </div>
+  <div class="transparent">
+    <%= video_tag 'front_page_vid.mp4', controls: false, autoplay: true, muted: true, loop: true, id: 'bgvid', class: 'fullscreen-bg-video', type: 'video/mp4' %>
   </div>
   <div class="container">
-      <h1 class="margin-title">Hi, I'm John Stewart.</h1>
+      <h1 class="margin-title">Hi, I'm <span class="blue-letter">J</span>ohn <span class="blue-letter">S</span>tewart.</h1>
     <div class="content has-text-centered is-large no-margin-subtitle">
       <h2>Web Developer</h2>
     </div>
@@ -27,6 +26,48 @@
     </div>
   </div>
 </header>
+
+<!-- about me and projects -->
 <main>
-<h1>What the actual fuck is going on here!!</h1>
+  <div class="container main-start">
+    <h1 class="main-start">about <span class="salmon-letter">me</span></h1>
+    <div class="columns">
+      <div class="column is-4 is-offset-1">
+        <%= image_tag "/assets/bw_transparent_me.png" %>
+      </div>
+      <div class="column is-2">
+      </div>
+      <div class="column is-4">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="http://bulma.io/images/placeholders/1280x960.png" alt="Image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-left">
+                <figure class="image is-48x48">
+                  <img src="http://bulma.io/images/placeholders/96x96.png" alt="Image">
+                </figure>
+              </div>
+              <div class="media-content">
+                <p class="title is-4">John Smith</p>
+                <p class="subtitle is-6">@johnsmith</p>
+              </div>
+            </div>
+
+            <div class="content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+              <a>#css</a> <a>#responsive</a>
+              <br>
+              <small>11:09 PM - 1 Jan 2016</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </main>
