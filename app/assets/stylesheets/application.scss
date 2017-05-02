@@ -1,8 +1,18 @@
-@import "bootstrap-sprockets";
-@import "bootstrap";
 @import "bulma";
-@import "pages";
-@import "projects";
-@import "nav_bar";
-@import "index";
-@import "footer"
+// @import "projects";
+// // @import "nav_bar";
+// @import "index";
+// @import "footer";
+// @import "pages";
+@import "partials";
+
+
+// fonts
+
+hgroup {
+  font-family: 'Oswald', sans-serif;
+}
+
+p {
+  font-family: 'Roboto Slab', serif;
+}
