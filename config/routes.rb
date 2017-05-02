@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   get 'pages/splash'
 
-  get 'pages/about'
+  get 'pages/full'
 
   get 'pages/skillz'
 

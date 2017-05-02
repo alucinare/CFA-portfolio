@@ -1,18 +1,21 @@
 @import "bulma";
-// @import "projects";
-// // @import "nav_bar";
-// @import "index";
-// @import "footer";
-// @import "pages";
+@import "projects";
+@import "nav";
+@import "index";
+@import "footer";
+@import "pages";
 @import "partials";
 
 
 // fonts
 
-hgroup {
+h1, h2, h3, .content h2 {
   font-family: 'Oswald', sans-serif;
+  color: black;
+  z-index: 1;
 }
 
 p {
   font-family: 'Roboto Slab', serif;
+  color: black;
 }
