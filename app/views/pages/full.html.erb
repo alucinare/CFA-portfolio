@@ -17,8 +17,10 @@
     <%= video_tag 'front_page_vid.mp4', controls: false, autoplay: true, muted: true, loop: true, id: 'bgvid', class: 'fullscreen-bg-video', type: 'video/mp4' %>
   </div>
   <div class="container">
-      <h1 class="margin-title">Hi, I'm <span class="blue-letter">J</span>ohn <span class="blue-letter">S</span>tewart.</h1>
-    <div class="content has-text-centered is-large no-margin-subtitle">
+    <div class="content has-text-centered is-large margin-title">
+      <h1>Hi, I'm <span class="blue-letter">J</span>ohn <span class="blue-letter">S</span>tewart.</h1>
+    </div>
+    <div class="content has-text-centered is-large">
       <h2>Web Developer</h2>
     </div>
     <div class="content has-text-centered is-small">
@@ -29,16 +31,28 @@
 
 <!-- about me and projects -->
 <main>
-  <div class="container main-start">
-    <h1 class="main-start">about <span class="salmon-letter">me</span></h1>
+  <div class="container main-start-bot">
+  </div>
+  <div class="container main-content">
+    <div class="content has-text-centered is-large">
+      <h1 class="margins-me">about <span class="salmon-letter">me</span></h1>
+    </div>
     <div class="columns">
       <div class="column is-4 is-offset-1">
-        <%= image_tag "/assets/bw_transparent_me.png" %>
+        <div class="circle-back">
+          <!-- image_tag "/assets/bw_trans_cir_me.png", class: "margins-me-main" %> -->
+        </div>
       </div>
       <div class="column is-2">
       </div>
       <div class="column is-4">
-        <div class="card">
+        <div class="box">
+          this is a box
+          <div class="box">
+            this is a box
+          </div>
+        </div>
+        <!-- <div class="card">
           <div class="card-image">
             <figure class="image is-4by3">
               <img src="http://bulma.io/images/placeholders/1280x960.png" alt="Image">
@@ -65,7 +79,7 @@
               <small>11:09 PM - 1 Jan 2016</small>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>

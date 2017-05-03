@@ -1,29 +1,3 @@
 // Place all the styles related to the partials controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
-
-// home
-
-.fullscreen-bg-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%    !important;
-  height: auto   !important;
-  z-index: -1;
-  border-bottom: 5px solid #3797b6;
-}
-
-.transparent {
-  background-color: rgba(0, 105, 134, 0.1);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 106.5%;
-}
-
-.margin-title {
-  margin-top: 15%;
-}

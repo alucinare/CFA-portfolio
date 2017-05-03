@@ -1,3 +1,9 @@
+Firefox developer browser has problems correctly representing spacing when adjusting the margins. Whereas Chrome displaying it correctly - that is, the way I want it.
+
+Opera doesn't even show the video. I don't know why. Perhaps, I need to add some special handle. This is kind of annoying! I can see why developers want to use Chrome.
+
+
+
 <nav class="navbar navbar-default nav-custom edge--bottom">
   <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display  the burger-->
