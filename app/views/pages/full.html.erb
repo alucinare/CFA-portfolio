@@ -1,30 +1,31 @@
 <header>
-    <div class="columns nav-margin">
-      <div class="column is-1 is-offset-4">
-        <h2 class="vert-center has-text-centered">PROJECTS</h2>
-      </div>
-      <div class="column is-2">
-        <%= image_tag "/assets/logo_transparent_smlr_s.png", class: "center-logo" %>
-      </div>
-      <div class="column is-1">
-        <h2 class="has-text-centered vert-center">CONTACT</h2>
-      </div>
-    </div>
+  <%= video_tag 'front_page_vid.mp4', controls: false, autoplay: true, muted: true, loop: true, id: 'bgvid', class: 'fullscreen-bg-video', type: 'video/mp4' %>
 
   <div class="transparent">
-    <%= video_tag 'front_page_vid.mp4', controls: false, autoplay: true, muted: true, loop: true, id: 'bgvid', class: 'fullscreen-bg-video', type: 'video/mp4' %>
+    <div class="columns">
+      <div class="column is-1 is-offset-4">
+        <h2 class="vert-center has-text-centered white-text">PROJECTS</a></h2>
+      </div>
+      <div class="column is-2">
+        <a href="#about"><%= image_tag "/assets/logo_transparent_smlr_s.png", class: "center-logo" %></a>
+      </div>
+      <div class="column is-1">
+        <h2 class="has-text-centered vert-center white-text">CONTACT</h2>
+      </div>
+    </div>
+    <div class="container center-text">
+      <div class="content has-text-centered is-large margin-title">
+        <h1 class="white-text">Hi, I'm <span class="salmon-letter">J</span>ohn <span class="salmon-letter">S</span>tewart.</h1>
+      </div>
+      <div class="content has-text-centered is-large">
+        <h2 class="white-text">Web Developer</h2>
+      </div>
+      <div class="content has-text-centered is-small">
+        <p class="white-text">(Note: not my actual hand though mine does look similar.)</p>
+      </div>
+    </div>
   </div>
-  <div class="container">
-    <div class="content has-text-centered is-large margin-title">
-      <h1 class="white-text">Hi, I'm <span class="salmon-letter">J</span>ohn <span class="salmon-letter">S</span>tewart.</h1>
-    </div>
-    <div class="content has-text-centered is-large">
-      <h2>Web Developer</h2>
-    </div>
-    <div class="content has-text-centered is-small">
-      <p>(Note: not my actual hand though mine does look similar.)</p>
-    </div>
-  </div>
+
 </header>
 
 <!-- about me and projects -->
@@ -33,7 +34,7 @@
   </div>
   <div class="container main-content">
     <div class="content has-text-centered is-large">
-      <h1 id="about-me" class="black-p">about <span class="salmon-letter">me</span></h1>
+      <h1 id="about">about <span class="salmon-letter">me</span></h1>
     </div>
     <div class="columns margins-me">
       <div class="column is-4 is-offset-1">
@@ -58,3 +59,10 @@
   <div class="container end-margin-bot">
   </div>
 </main>
+<br>
+<br>
+<br>
+<div class="dashed-box">Dashed box
+  <span class="gold-box">Gold box</span>
+  <span class="green-box">Green box</span>
+</div>
