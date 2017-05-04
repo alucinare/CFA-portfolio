@@ -35,7 +35,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 # gems I've installed
-
+gem 'simple_form'
 #bulma
 gem "bulma-rails"
 
