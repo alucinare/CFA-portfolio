@@ -8,28 +8,43 @@
   padding-bottom: 2em;
 }
 
+//// contact form /////
+
+.contact {
+  margin-bottom: 6em;
+}
+
 // general style of footer
 .footer-custom {
   background-color: rgb(0, 105, 134);
-  color: rgb(77, 208, 225);
   margin-top: 3em;
-  height: 21vh;
+  height: 19em;
   width: 100%;
 
-}
-
-.footer-custom > div > div {
-  color: rgb(77, 208, 225);
-  margin-top: 3em;
-  margin-bottom: 3em;
-}
-
-// space between icons
-.footer-custom div > div > p > a > i {
-  padding-left: .7em;
-  padding-right: .7em;
+  box-shadow: 0px 0px 45px 7px #888888;
 }
 
 .name {
-  color: #F44336;
+  color: #81002f;
+}
+
+.fa-5x {
+  font-size: 80px;
+  color: #6fc8e8;
+}
+
+.social ul li {
+  list-style-type: none;
+  text-align: center;
+  display: inline-block;
+  padding: 30px;
+}
+
+.footer-custom-pad > h1 {
+  padding-top: 2em;
+}
+
+.project-image {
+   position: relative;
+   width: 100%; /* for IE 6 */
 }
