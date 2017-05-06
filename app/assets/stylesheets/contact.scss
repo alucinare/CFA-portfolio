@@ -1,3 +1,29 @@
 // Place all the styles related to the Contact controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+//// contact form /////
+
+// .contact {
+//   margin-bottom: 1em;
+// }
+
+.contact-shadow {
+  box-shadow: 0px 0px 45px 0px #888888;
+  padding-bottom: 5em;
+}
+
+.f-header-pad {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.container-contact {
+  padding: 10em;
+  margin-top: -12em;
+  margin-bottom: -8em;
+}
+
+.padding-form {
+  padding: 0 5em;
+}
