@@ -1,31 +1,32 @@
+<!-- start of landing page -->
 <header>
   <%= video_tag 'front_page_vid.mp4', controls: false, autoplay: true, muted: true, loop: true, id: 'bgvid', class: 'fullscreen-bg-video', type: 'video/mp4' %>
-
-  <div class="transparent">
-    <div class="columns">
-      <div class="column is-1 is-offset-4">
-        <h2 class="vert-center has-text-centered white-text"><a href="#projects">PROJECTS</a></h2>
+<!--  nav bar -->
+    <div class="transparent">
+      <div class="columns">
+        <div id="top" class="column is-1 is-offset-4">
+          <h2 class="vert-center has-text-centered white-text"><a href="#projects">PROJECTS</a></h2>
+        </div>
+        <div class="column is-2">
+          <a href="#about"><%= image_tag "/assets/logo_transparent_smlr_s.png", class: "center-logo" %></a>
+        </div>
+        <div class="column is-1">
+          <h2 class="has-text-centered vert-center white-text"><a href="#contact">CONTACT</a></h2>
+        </div>
       </div>
-      <div class="column is-2">
-        <a href="#about"><%= image_tag "/assets/logo_transparent_smlr_s.png", class: "center-logo" %></a>
-      </div>
-      <div class="column is-1">
-        <h2 class="has-text-centered vert-center white-text"><a href="#contact">CONTACT</a></h2>
-      </div>
-    </div>
+<!--center text  -->
     <div class="container center-text">
       <div class="content has-text-centered is-large margin-title">
-        <h1 class="white-text">Hi, I'm <span class="salmon-letter">J</span>ohn <span class="salmon-letter">S</span>tewart.</h1>
+        <h1 class="white-text">Hi, I'm John Stewart.</h1>
       </div>
       <div class="content has-text-centered is-large">
-        <h2 class="white-text">Web Developer</h2>
+        <h2 class="white-text">Web Developer.</h2>
       </div>
       <div class="content has-text-centered is-small">
         <p class="white-text">(Note: not my actual hand though mine does look similar.)</p>
       </div>
     </div>
   </div>
-
 </header>
 
 <!-- about me and projects -->
@@ -38,6 +39,7 @@
     <div class="content has-text-centered is-large">
       <h1 id="about">about <span class="salmon-letter">me</span></h1>
     </div>
+
     <div class="columns margins-me">
       <div class="column is-4 is-offset-1">
         <div class="circle-back">
@@ -61,15 +63,17 @@
   <!--  end about me-->
   <div class="container end-margin-bot">
   </div>
+
   <!-- start projects -->
   <section class="projects">
     <div class="content has-text-centered is-large header-pad">
       <h1 id="projects" class="white-text"><span class="salmon-letter">my</span> projects</h1>
     </div>
+
     <div class="columns">
-      <div class="column is-5 is-offset-1 project-image">
-        <a href="https://engaugeus.herokuapp.com/"><%= image_tag "/assets/project2.png", class: "img-size gif" %></a>
-        <h2><span>Major Project 2:<span class='spacer'></span><br /><span class='spacer'></span>Engaugeus</span></h2>
+      <div class="column is-5 is-offset-1 project-image project-image-1">
+        <a href="https://engaugeus.herokuapp.com/"><%= image_tag "/assets/project2.png", class: "img-size gif project-image" %></a>
+        <h2 class="child-1"><span>Major Project 2:<span class='spacer'></span><br /><span class='spacer'></span>Engaugeus</span></h2>
       </div>
       <div class="column is-5 project-image">
         <a href="https://agile-island-21060.herokuapp.com/"><%= image_tag "/assets/tutr.png", class: "img-size gif" %></a>
@@ -78,8 +82,8 @@
     </div>
     <div class="columns">
       <div class="column is-5 is-offset-1 project-image">
-        <a href="https://github.com/alucinare/CFA-find-a-way"><%= image_tag "/assets/finding.png", class: "img-size gif" %></a>
         <h2><span>Personal Console Project:<span class='spacer'></span><br /><span class='spacer'></span>Find a Way</span></h2>
+        <a href="https://github.com/alucinare/CFA-find-a-way"><%= image_tag "/assets/finding.png", class: "img-size gif" %></a>
       </div>
       <div class="column is-5 project-image">
       <a href="https://github.com/alucinare/CFA-Temperature-Challenge">  <%= image_tag "/assets/temp.png", class: "img-size gif" %></a>
@@ -95,6 +99,7 @@
 <footer>
   <div class="container end-margin-bot">
   </div>
+  <!-- contact -->
   <%= render 'contact/index' %>
   <section class="footer-custom">
     <div class="container">
@@ -102,6 +107,8 @@
         <h1 class="white-text">
           Page by <span class="name">John Stewart</span>
         </h1>
+        <p class="white-text"><a href="#top">Back to Top</a></p>
+        <!--  social media links -->
         <div class="columns">
           <div class="column is-half-mobile social">
             <ul>
