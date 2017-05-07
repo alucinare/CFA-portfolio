@@ -1,8 +1,24 @@
-@import "bootstrap-sprockets";
-@import "bootstrap";
 @import "bulma";
-@import "pages";
-@import "projects";
-@import "nav_bar";
-@import "index";
-@import "footer"
+@import "nav";
+@import "footer";
+@import "partials";
+@import "head";
+@import "main";
+@import "contact";
+
+// * {
+//     border: 1px solid red !important;
+// }
+
+// fonts
+
+h3, .content h2, .content h1  {
+  font-family: 'Oswald', sans-serif;
+  z-index: 1;
+  color: black;
+}
+
+p {
+  font-family: 'Roboto Slab', serif;
+  color: black;
+}

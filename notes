@@ -1,0 +1,171 @@
+Firefox developer browser has problems correctly representing spacing when adjusting the margins. Whereas Chrome displaying it correctly - that is, the way I want it.
+
+Opera doesn't even show the video. I don't know why. Perhaps, I need to add some special handle. This is kind of annoying! I can see why developers want to use Chrome.
+
+
+
+<nav class="navbar navbar-default nav-custom edge--bottom">
+  <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display  the burger-->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed c-collp" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="custom-name navbar-brand font-heading" href="/">John S</a>
+    </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav font-heading nav-links-cust">
+        <li class="nav-links <%= active_class(pages_about_path)%>">
+            <%= link_to 'About', pages_about_path %>
+        </li>
+        <li class="nav-links
+        <%= active_class(pages_skillz_path) %>">
+            <%= link_to 'Expertise', pages_skillz_path %>
+        </li>
+        <li class="nav-links <%= active_class(pages_projects_path) %>">
+          <%= link_to 'Projects', pages_projects_path %>
+        </li>
+        <li class="nav-links <%= active_class(pages_contact_path) %>"><%= link_to 'Contact', pages_contact_path %>
+        </li>
+      </ul>
+    </div>
+</nav>
+
+
+//// ORIGINAL NAV BAR
+
+.nav-custom {
+
+  text-align: center;
+  background-color: rgba(63, 81, 181, 1);
+  // border-color: #8C9EFF;
+  max-width: 100%;
+  position:fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  margin: 0 auto;
+  color: white;
+
+}
+
+ // left link to splash
+.navbar-default .navbar-brand {
+  color: rgb(77, 208, 225);
+}
+
+.navbar-default .navbar-brand:hover {
+  color:  #F44336;
+}
+
+// burger menu
+.c-collp {
+  background-color: rgb(77, 208, 225);
+}
+
+// when nav collapse into burger
+@media (max-width: 1150px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
+
+//  links container
+.nav-links-cust {
+
+  margin: 0 0 0 25em;
+  background-color: transparent;
+
+}
+
+.nav-links-cust > li {
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+
+// color of link texts
+.navbar-default .navbar-nav > li > a {
+  color: rgb(77, 208, 225);
+}
+
+// colour of text link when hover
+.navbar-default .navbar-nav > li > a:hover {
+  color: #F44336;
+}
+
+// colour of active link
+.navbar-default .navbar-nav > .active > a {
+  color: rgb(224, 247, 250);
+  background-color: #F44336;
+}
+
+// colour of link when hover
+.navbar-default .navbar-nav > .active > a:hover {
+  color: #F44336;
+  background-color: rgb(77, 208, 225);
+}
+
+//////////////////// ORIGINAL footer
+
+
+// general style of footer
+.footer-custom {
+  background-color: rgba(63, 81, 181, 1);
+  color: rgb(77, 208, 225);
+  margin-top: 3em;
+  height: 21vh;
+
+}
+
+.footer-custom > div > div {
+  color: rgb(77, 208, 225);
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+// space between icons
+.footer-custom div > div > p > a > i {
+  padding-left: .7em;
+  padding-right: .7em;
+}
+
+.name {
+  color: #F44336;
+}

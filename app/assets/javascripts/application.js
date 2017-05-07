@@ -14,4 +14,22 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree
-//= require bootstrap-sprockets
+
+$(document).ready(function() {
+  $('a').click(function(){
+      $('html, body').animate({
+          scrollTop: $( $(this).attr('href') ).offset().top
+      }, 500);
+      return false;
+  });
+
+  $(".gif").hover(function() {
+      var src = $(this).attr("src");
+      $(this).attr("src", src.replace(/\.png$/i, ".gif"));
+    },
+    function()
+    {
+      var src = $(this).attr("src");
+      $(this).attr("src", src.replace(/\.gif$/i, ".png"));
+    });
+});

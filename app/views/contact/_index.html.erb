@@ -1,0 +1,30 @@
+<div id="contact" class="hero-body contact">
+  <div class="container-contact">
+    <div class="card contact-shadow">
+      <div class="content has-text-centered is-large f-header-pad">
+        <h1>Contact Me</h1>
+      </div>
+
+      <div class="columns has-text-centered padding-form">
+          <div class="column login-box">
+            <%= form_for :contact do |f| %>
+              <div class="field control">
+                <%= f.label :email, class: "label" %>
+                <%= f.email_field :email, class:"input", placeholder: "Enter Email Here." %>
+              </div>
+              <br>
+
+              <div class="field control">
+                <%= f.label :message, class:"label" %>
+                <%= f.text_area :message, class:"textarea", autocomplete: "off", placeholder: "Enter Message Here"  %>
+              </div>
+              <br>
+              <div class="actions">
+                <%= f.submit "Send", class:"button is-primary has-text-centered button-pad" %>
+              </div>
+            <% end %>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>

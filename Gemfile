@@ -35,10 +35,9 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 # gems I've installed
-gem 'bootstrap-sass', '~> 3.3.6'
-
+gem 'simple_form'
 #bulma
-gem "bulma-rails", "~> 0.3.2"
+gem "bulma-rails"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

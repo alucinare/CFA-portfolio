@@ -13,7 +13,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,500|Roboto+Slab:300,400" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
 
@@ -21,11 +21,7 @@
 
   <body>
 
-    <%= render 'nav' unless @disable_nav %>
-
-
     <%= yield %>
 
-    <%= render 'footer' unless @disable_nav %>
   </body>
 </html>

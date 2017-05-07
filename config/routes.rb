@@ -1,15 +1,7 @@
 Rails.application.routes.draw do
-  root to: 'pages#index'
 
-  get 'pages/splash'
+  root to: 'pages#full'
 
-  get 'pages/about'
+  post '/pages#full', to: "contact#mail"
 
-  get 'pages/skillz'
-
-  get 'pages/projects'
-
-  get 'pages/contact'
-
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

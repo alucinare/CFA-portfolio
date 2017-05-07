@@ -1,0 +1,47 @@
+// general style of footer
+.footer-custom {
+  background-color: rgb(0, 105, 134);
+  margin-top: 3em;
+  height: 21em;
+  width: 100%;
+
+  box-shadow: 0px 0px 45px 7px #888888;
+}
+
+.name {
+  color: #81002f;
+}
+
+// social media icons
+
+.social ul li {
+  list-style-type: none;
+  text-align: center;
+  display: inline-block;
+  padding: 30px;
+}
+
+.fa-5x {
+  font-size: 80px;
+  color: #6fc8e8;
+}
+
+.fa-linkedin-square:hover {
+  color: #0077b5;
+}
+
+.fa-github:hover {
+  color: #000000;
+}
+
+.fa-envelope:hover {
+  color: #c71610;
+}
+
+.fa-twitter-square:hover {
+  color: #55acee;
+}
+
+.footer-custom-pad > h1 {
+  padding-top: 2em;
+}
