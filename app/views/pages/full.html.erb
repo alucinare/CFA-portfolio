@@ -2,31 +2,33 @@
 <header>
   <%= video_tag 'front_page_vid.mp4', controls: false, autoplay: true, muted: true, loop: true, id: 'bgvid', class: 'fullscreen-bg-video', type: 'video/mp4' %>
 <!--  nav bar -->
-    <div class="transparent">
-      <div class="columns">
-        <div id="top" class="column is-1 is-offset-4">
-          <h2 class="vert-center has-text-centered white-text"><a href="#projects">PROJECTS</a></h2>
-        </div>
-        <div class="column is-2">
-          <a href="#about"><%= image_tag "/assets/logo_transparent_smlr_s.png", class: "center-logo" %></a>
-        </div>
-        <div class="column is-1">
-          <h2 class="has-text-centered vert-center white-text"><a href="#contact">CONTACT</a></h2>
-        </div>
+  <div class="transparent-desktop">
+    <div class="columns">
+      <div id="top" class="column is-1 is-offset-4">
+        <h2 class="vert-center has-text-centered white-text"><a href="#projects">PROJECTS</a></h2>
       </div>
-<!--center text  -->
-    <div class="container center-text">
-      <div class="content has-text-centered is-large margin-title">
-        <h1 class="white-text">Hi, I'm John Stewart.</h1>
+      <div class="column is-2">
+        <a href="#about"><%= image_tag "/assets/logo_transparent_smlr_s.png", class: "center-logo" %></a>
       </div>
-      <div class="content has-text-centered is-large">
-        <h2 class="white-text">Web Developer.</h2>
-      </div>
-      <div class="content has-text-centered is-small">
-        <p class="white-text">(Note: not my actual hand though mine does look similar.)</p>
+      <div class="column is-1">
+        <h2 class="has-text-centered vert-center white-text"><a href="#contact">CONTACT</a></h2>
       </div>
     </div>
-  </div>
+    <!--center text  -->
+        <div class="container center-text">
+          <div class="content has-text-centered is-large margin-title">
+            <h1 class="white-text">Hi, I'm John Stewart.</h1>
+          </div>
+          <div class="content has-text-centered is-large">
+            <h2 class="white-text">Web Developer.</h2>
+          </div>
+          <div class="content has-text-centered is-small">
+            <p class="white-text">(Note: not my actual hand though mine does look similar.)</p>
+          </div>
+        </div>
+      </div>
+</div>
+
 </header>
 
 <!-- about me and projects -->

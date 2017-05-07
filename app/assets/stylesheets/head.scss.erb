@@ -29,16 +29,35 @@ a:hover {
 
 ///////////// TRANSPARENCY LAYER //////////
 
-.transparent {
+// @media screen and (max-width: 959px) {
+//
+// }
+
+.transparent-desktop {
   background-color: rgba(0, 105, 134, 0.2);
   top: 0;
   left: 0;
   width: 100%;
-  height: 852px;
+  height: 855px;
 
   position: absolute;
   z-index: 2;
 }
+
+@media only screen and (max-device-width: 414px) {
+
+  .transparent-desktop {
+    background-color: rgba(0, 105, 134, 0.2);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 545px;
+
+    position: absolute;
+    z-index: 2;
+  }
+}
+
 
 
 /////////// CENTER TEXT //////////////
