@@ -11,10 +11,10 @@ class ContactController < ApplicationController
 
         if email.present? || message.present?
           ContactMailer.send_contact_email(email, message).deliver_now
-          redirect_to '/', notice: 'Email sent!'
+          redirect_to root_path, notice: 'Email sent!'
         else
           flash[:warning] = "Please fill out the form."
-          redirect_to '/'
+          redirect_to root_path
         end
       end
     end
