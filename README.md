@@ -1,14 +1,16 @@
+![alt tag](https://github.com/alucinare/CFA-Major-Project-2/blob/master/images/project_coder_factory.jpeg)
+
 # CFA Major Solo Project Semster 1 -- Professional Portfolio
 
 The portfolio can be accessed here: https://johnstewartportfolio.herokuapp.com/
 
 ## About The Project
 
-The task of the project was to create a professional portfolio showcasing what we have learnt thus far in the course. It is meant to display our proficiency in HTML, CSS, Ruby, and Ruby on Rails while presenting any minor projects that we have created during the past 5 week semester. Furthermore, it meant to convey an element of our personality, a kind of "who we are" as a web developer. Lastly, it was meant to be a challenging learning experience to better understand the design and production process behind creating a fully functioning website.
+The task of the project was to create a professional portfolio showcasing what we have learnt in the course thus far. It is meant to display our proficiency in HTML, CSS, Ruby, and Ruby on Rails while presenting any minor projects that we have created during the past 5 week semester. It meant to convey an element of our personality, a kind of "who we are" as a web developer. Lastly, it was meant to be a challenging learning experience to better understand the design and production process behind creating a fully functioning website.
 
 ## The (re)-Design Process
 
-The portfolio went through many iteration before reaching the final form. It is as much an experiment with CSS geometry as it is a (unconventional) professional portfolio. This is representative of the part of myself that is interested in experimentation and draws upon my dabbling in the (and love of) visual arts.
+The portfolio went through many iterations before reaching the final form. It is as much an experiment with CSS geometry as it is a (unconventional) professional portfolio. This is representative of the part of myself that is interested in experimentation and draws upon my dabbling in the (and love of) visual arts.
 
 My original idea was a command line front that allow the user to interact with the website through the command prompt. I wanted this to represent my inclination towards back-end production. I decided against this as I'd have to learn javascript and wanted to get a better handle on HTML, CSS, and Rails before jumping into another language.
 
@@ -18,13 +20,29 @@ The challenge with the second iteration was getting the geometrics to be respons
 
 The third iteration still kept the minimal and geometric design yet included an element of space. I wanted to experiment with the use of space on a website and to keep it simple through the use of geometrics and colour. This is most obvious in the about page which is a stark contrast to the splash page the user is introduced to when landing on the site.
 
-The splash page is a bit of an experiment in CSS geometry and gradient animation. I wanted to created a visual experience that was slightly overwhelming, confusing, perhaps distasteful or even soothing. This would be a striking contrast to the minimalist about page that the user is taken to when they click enter.
+The splash page is a bit of an experiment in CSS geometry and gradient animation. I wanted to created a visual experience that was slightly overwhelming, confusing, perhaps distasteful or even soothing and paid a slight homage to the days of yahoo geocities, where my first website was actually created. This would be a striking contrast to the minimalist about page that the user is taken to when they click enter.
 
 Lastly, this project was a playful way for me to get a better understanding of how CSS and HTML work together. I think it's strength is in the experimentation while it's weakness is in the limitation of skills to implement what I really wanted to implement. I'm sure my professional portfolio with iterate new forms in the future. In the meantime I hope this is enjoyed, on some level, by the user.
+
+After the second semester I redesigned my portfolio again. I wasn't entirely happy with the first iteration and wanted to make it cleaner, simpler, and all on one page.
 
 ## Design Criteria
 
 The criteria for this project was not as technically orientated as other projects. A few of the key elements asked of us was a thoughtfully written bio, a projects section, a way to contact, a portfolio that shows our personality, and documentation via github.
+
+### Style Guide
+
+#### Colour
+
+| Item     | Colour | 	RGB   | Hex |
+| :------- | ----: | :---: | :----: |
+| Primary 1 |    |  RGB(0, 105, 134) | #006986 |
+| Secondary 1 | | RGB(55, 151, 182) | #3797b6 | 
+| Secondary 2 | | rgba(236, 105, 132, 0.7) | #EC6984 |
+| Secondary 3 | | rgb(129, 0, 47) | #81002F |
+| Font 1 | | rgb(255, 255, 255) | #ffffff | 
+| Font 2 | | rgb(0, 0, 0) | #000000 |
+| Font 3 | | rgb(129, 0, 47) | #81002F |
 
 From this I applied the following user stories:
 
