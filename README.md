@@ -44,6 +44,10 @@ The criteria for this project was not as technically orientated as other project
 | Font 2 | | rgb(0, 0, 0) | #000000 |
 | Font 3 | | rgb(129, 0, 47) | #81002F |
 
+#### Fonts
+
+
+
 From this I applied the following user stories:
 
 * As a potential employer I want to be able to see a page with John's work on it.
