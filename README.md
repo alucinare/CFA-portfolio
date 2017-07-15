@@ -34,19 +34,23 @@ The criteria for this project was not as technically orientated as other project
 
 #### Colour
 
+I choose the following colours because blue is my favourite colour and I think it works well alongside white and in the different shades presented on the site. The secondary 3 is a complementary colour to Primary 1 and Secondary 1. It also works well as a highlight for some text items.
+
 | Item     | Colour | 	RGB   | Hex |
 | :------- | ----: | :---: | :----: |
-| Primary 1 |    |  RGB(0, 105, 134) | #006986 |
-| Secondary 1 | | RGB(55, 151, 182) | #3797b6 | 
-| Secondary 2 | | rgba(236, 105, 132, 0.7) | #EC6984 |
-| Secondary 3 | | rgb(129, 0, 47) | #81002F |
-| Font 1 | | rgb(255, 255, 255) | #ffffff | 
-| Font 2 | | rgb(0, 0, 0) | #000000 |
-| Font 3 | | rgb(129, 0, 47) | #81002F |
+| Primary 1 |  ![alt tag](https://github.com/codeinaire/CFA-Major-Project-1/blob/master/Images/primary1.png)  |  RGB(0, 105, 134) | #006986 |
+| Secondary 1 | ![alt tag](https://github.com/codeinaire/CFA-Major-Project-1/blob/master/Images/second1.png) | RGB(55, 151, 182) | #3797b6 | 
+| Secondary 2 | ![alt tag](https://github.com/codeinaire/CFA-Major-Project-1/blob/master/Images/second2.png) | rgba(236, 105, 132, 0.7) | #EC6984 |
+| Secondary 3 | ![alt tag](https://github.com/codeinaire/CFA-Major-Project-1/blob/master/Images/second3.png) | rgb(129, 0, 47) | #81002F |
+| Font 1 | ![alt tag]() | rgb(255, 255, 255) | #FFFFFF | 
+| Font 2 | ![alt tag](https://github.com/codeinaire/CFA-Major-Project-1/blob/master/Images/font2.png) | rgb(0, 0, 0) | #000000 |
+| Font 3 | ![alt tag](https://github.com/codeinaire/CFA-Major-Project-1/blob/master/Images/second3.png) | rgb(129, 0, 47) | #81002F |
 
 #### Fonts
 
+I used Oswald for the headings because I wanted a font that complemented Roboto Slab. I used Roboto Slab because I enjoy the look of Roboto but felt it looked to liney and wanted to use it as a content font instead of a header font.
 
+![alt tag](https://github.com/codeinaire/CFA-Major-Project-1/blob/master/Images/styleguide.png)
 
 From this I applied the following user stories:
 
@@ -100,6 +104,24 @@ Otherwise, if you can run the site from a local host following these steps:
 - Trello board of project
 
  ![alt tag](https://github.com/alucinare/CFA-portfolio/blob/master/Images/portfolio_trello.png)
+ 
+ - Redesign of the homesection. An issue is the transparent overlay is unresponsive to different sized screens.
+ 
+ ![alt tag](https://github.com/codeinaire/CFA-Major-Project-1/blob/master/Images/nuhomepage.png)
+ 
+ - About me section.
+ 
+ ![alt tag](https://github.com/codeinaire/CFA-Major-Project-1/blob/master/Images/nuself.png)
+ 
+ - Projects section.
+ 
+ ![alt tag](https://github.com/codeinaire/CFA-Major-Project-1/blob/master/Images/nuprojects.png)
+ 
+ - Contact form section.
+ 
+ ![alt tag](https://github.com/codeinaire/CFA-Major-Project-1/blob/master/Images/nucontact.png)
+ 
+ The rest of the photos are from the old, experimental website.
  
  - Experimental splash page
  
